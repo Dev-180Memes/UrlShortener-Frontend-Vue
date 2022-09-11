@@ -43,7 +43,7 @@ export default {
   methods: {
     submit: async function (longUrl) {
       try {
-        const api = "https://shpie.herokuapp.com/api/url/shorten";
+        const api = "https://friendly-life-jacket-lion.cyclic.app/api/url/shorten";
         const response = await axios.post(api, {
           longUrl,
         });
